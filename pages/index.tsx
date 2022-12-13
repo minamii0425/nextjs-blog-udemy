@@ -46,7 +46,9 @@ const Home: FC<HomeProps> = ({ allPostsData }) => {
           <title>{siteTitle}</title>
         </Head>
         <section className={utilStyles.headingMd}>
-          <p>最近Reactをはじめました。Reactのスペシャリストになりたいです。</p>
+          <p>
+            最近Next.jsもはじめました。Next.jsのスペシャリストになりたいです。
+          </p>
         </section>
 
         <section className={`${utilStyles.padding1px} ${utilStyles.headingMd}`}>
